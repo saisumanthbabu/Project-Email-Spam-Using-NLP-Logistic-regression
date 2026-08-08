@@ -43,3 +43,12 @@ Logistic Regression
 Model Evaluation
       ↓
 Spam / Not Spam Prediction
+## 📊 Model Evaluation
+
+The model is evaluated using commonly used classification metrics:
+
+Metric	Result
+Accuracy	98.5%
+Precision	96.88%
+Recall	97.89%
+
