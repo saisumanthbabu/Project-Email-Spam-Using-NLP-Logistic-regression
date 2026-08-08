@@ -1,30 +1,45 @@
-**Email-Spam-Detection-using-Logistic-regression-and-NLP**
+# 📧 Email Spam Detection Using NLP and Logistic Regression
 
-Welcome to the Email Spam Detection project! This repository provides a complete machine learning pipeline
-for classifying emails as spam or not spam using Logistic regression and Natural Language Processing (NLP) techniques.
+A machine learning project for automatically classifying text messages as **Spam** or **Not Spam** using **Natural Language Processing (NLP)** and **Logistic Regression**.
 
-Overview This project utilizes the SMS Spam Collection Dataset to train a model that identifies spam emails. It includes:
+The project demonstrates a complete machine learning workflow, including text preprocessing, feature extraction, model training, evaluation, and visualization.
 
-**Dataset:** This dataset contains 3000 emails combination of spam emails and Not emails.
+---
 
-**Data Preprocessing:** Tokenization, stopword removal, lemmatization, and feature extraction.
+## 📌 Project Overview
 
-**Model Building:** Using Naive Bayes classifier for efficient and interpretable spam detection. 
+Spam messages are unwanted and potentially harmful messages that can contain advertisements, fraudulent content, or misleading information. This project aims to automatically identify spam messages using machine learning and NLP techniques.
 
-**Evaluation Metrics**: Performance metrics such as accuracy, precision and recall  to evaluate the model. 
+The **SMS Spam Collection Dataset** is used to train and evaluate the classification model. The text data is processed and converted into numerical features before being provided to the Logistic Regression classifier.
 
-**Features Efficient Text Preprocessing:** Includes advanced NLP techniques to clean and prepare data. 
+---
 
-**Spam Classification:** Used Logistic Regression as the classification algorithm.Performed cross-validation to ensure stability of results. Visualization: Depicts text data trends using Matplotlib.
+## 📂 Dataset
 
-**Output:**
-This classifier can be integrated into email systems to automatically detect spam with high accuracy.
-It is flexible enough to adapt to different datasets and can be improved further by:
+The project uses the **SMS Spam Collection Dataset**, containing approximately **3,000 messages** categorized as:
 
- Adding more advanced NLP techniques (TF-IDF, word embeddings)
-**Achieved high performance on the test set:**
-Accuracy: 98.5%
+- **Spam** – Unwanted or suspicious messages
+- **Not Spam (Ham)** – Normal messages
 
-Precision: 96.88%
+The dataset is used for training and evaluating the spam classification model.
 
-Recall: 97.89%
+---
+
+## 🔄 Machine Learning Workflow
+
+```text
+Raw Text Data
+      ↓
+Data Preprocessing
+      ↓
+Text Cleaning
+      ↓
+Feature Extraction
+      ↓
+Train-Test Split
+      ↓
+Logistic Regression
+      ↓
+Model Evaluation
+      ↓
+Spam / Not Spam Prediction
